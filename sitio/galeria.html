@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="estilo.css">
+<title>GALERIA</title>
+    <script src="hoja.js"> </script>
+     <style>
+      @media (max-width: 1200px){
+.bg-gradient{
+  color: white;
+}
+      }
+    </style>  
+</head>
+<body>
+  
+<!--ESPACIO PARA BARRA DE NAVEGACION-->
+
+<nav class="navbar  bg-black fixed-top text-white">
+  <div class="container-fluid " >
+    <a class="navbar-brand text-white" href="index.html"><strong>JUBASCUAS</strong></a>
+   
+    <!--BOTÓN DESPLEGABLE DEL MENÚ-->
+    <button class="navbar-toggler  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="offcanvas offcanvas-end   bg-black text-white" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title " id="offcanvasDarkNavbarLabel">MENU</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body ">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+          <li class="nav-item ">
+            <!--INICIO-->
+            <a class="nav-link active text-white" aria-current="page" href="index.html">INICIO</a>
+          </li>
+
+          <!--GALERIA-->
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="galeria.html">GALERIA</a>
+          </li>
+
+          <!--FREELANCE-->
+          <li class="nav-item" >
+            <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="freelance.html">FREELANCE</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="freelance.html">FREELANCE</a></li>
+              <li><a class="dropdown-item" href="subcarpetas/programacion.html">PROGRAMACIÓN</a></li>
+             <li><a class="dropdown-item" href="subcarpetas/communitymanagement.html">COMMUNITY MANAGEMENT</a></li>
+            </ul>
+          </li>
+
+          <!--PODCAST-->
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="posdcast.html">PODCAST</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="podcast.html">PODCAST</a></li>
+              <li><a class="dropdown-item" href="subcarpetas/podcastepisodios.html">EPISODIOS</a></li>
+              </ul>
+          </li>
+
+         <!--UNA-->
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="una.html">UNA</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="una.html">UNA</a></li>
+              <li><a class="dropdown-item" href="subcarpetas/disenomultimedial.html">DISEÑO MULTIMEDIAL</a></li>
+            </ul>
+          </li>
+          
+          <!--JUEGO-->
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="juego.html">JUEGO</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="juego.html">JUEGO</a></li>
+            </ul>
+          </li>
+
+          <!--CONTACTO-->
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="contacto.html">CONTACTO</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="contacto.html">CONTACTO</a></li>
+              <li><a class="dropdown-item" href="subcarpetas/cv.html">CV</a></li>
+              <li><a class="dropdown-item" href="subcarpetas/personal.html">PERSONAL</a></li>
+</ul>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+
+<!--GALERIA DE IMAGENES STORY!-->
+<div class="row">
+    <div class="col-lg-12  d-flex justify-content-center rounded m-0 p-5">
+        <div class="card text-center">
+            <div class="card-header ">
+              FREELANCE
+            </div>
+            <div class="card-body">
+              <p class="card-title ">Instagram Stories </p>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../sitio/imagenes/nina.png" width="300" height="300" class="img-fluid" alt="Historia de Instagram mostrando el diseño de unas uñas para Nina Beauty">
+            <img src="../sitio/imagenes/ninatres.png" width="300" height="300" class="img-fluid" alt="Historia de Instagram  con la palabra cursos 3 veces">
+            <img src="../sitio/imagenes/ninados.png" width="300" height="300" class="img-fluid" alt="Historia de Instagram con 3 tendencias de verano ">
+          </div>
+        
+          <div class="carousel-item ">
+       <img src="../sitio/imagenes/freelancealcanzatusueñodos.png" width="300" height="300" class="img-fluid " alt="Historia de Instagram de Alcanza tu sueño de buenos dias">
+       <img src="../sitio/imagenes/freelancealcanzatusueñotres.png" width="300" height="300" class="img-fluid" alt="Historia de Instagram  de Alcanza tu sueño con la semana del descanso">
+       <img src="../sitio/imagenes/freelancealcanzatusueño.png" width="300" height="300"  class="img-fluid " alt="Historia de Instagram de Alcanza tu sueño dando las buenas noches">
+          </div>
+
+          <div class="carousel-item ">
+            <img src="../sitio/imagenes/pet.png" width="300" height="300" class="img-fluid " alt="Historia de Instagram  sobre Pet Lola de los servicios que brindan">
+            <img src="../sitio/imagenes/petdos.png" width="300" height="300" class="img-fluid" alt="Historia de Instagram  sobre Pet Lola de como medir al perro para los buzos">
+            <img src="../sitio/imagenes/pettres.png" width="300" height="300"  class="img-fluid " alt="Historia de Instagram  sobre Pet Lola hablando de las chapitas que veden">
+            </div>
+               
+          <div class="carousel-item">
+ <img src="../sitio/imagenes/freelanceilustracionmiscereablesdos.png" width="300" height="300" class="img-fluid" alt="Ilustración para miscerables">
+ <img src="../sitio/imagenes/freelanceilustracionmiscereables.png" width="300" height="300" class="img-fluid" alt="Ilustración para miscerables">
+ <img src="../sitio/imagenes/freelanceilustracionmiscereablestres.png"  width="300" height="300" class="img-fluid" alt="Ilustración para miscerables">
+</div>
+        
+        <div class="carousel-item">
+          <img src="../sitio/imagenes/puericultoratres.png" width="300" height="300" class="img-fluid" alt="Historia de Instagram para Ailen puericultora sobre como generar tu propio banco de leche">
+          <img src="../sitio/imagenes/puericultora.png" width="300" height="300" class="img-fluid" alt="Historia de Instagram para Ailen explicando cual es el trabajo de una puericultora">
+          <img src="../sitio/imagenes/puericultorados.png" width="300" height="300" class="img-fluid" alt="Historia de Instagram para Ailen puericultora dando 5 tips de la lactancía">
+        </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+</div>
+</div>
+
+          <!--GALERIA DE IMAGENES POST!-->
+<div class="row">
+  <div class="col-lg-12  d-flex justify-content-center rounded m-0 p-5">
+      <div class="card text-center">
+          <div class="card-header ">
+            FREELANCE
+          </div>
+          <div class="card-body">
+            <p class="card-title ">Instagram Post</p>
+<div id="carouselExampleIndicatorsdos" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../sitio/imagenes/postnina.png" width="300" height="300" class="img-fluid" alt="posteo de imagen para instagram de Nina Beauty, taller de semipermanente">
+      <img src="../sitio/imagenes/postninados.png" width="300" height="300" class="img-fluid" alt="posteo de imagen para instagram de Nina Beauty con los temas del taller">
+      <img src="../sitio/imagenes/postninatres.png" width="300" height="300" class="img-fluid" alt="posteo de imagen para instagram de Nina Beauty, taller de kapping">
+    </div>
+  
+    <div class="carousel-item ">
+ <img src="../sitio/imagenes/postalcanzatusueño.png" width="300" height="300" class="img-fluid " alt="posteo de ventas para instagrama de alcanza tu sueño, 40% descuento en conjunto divan">
+ <img src="../sitio/imagenes/postalcanzatusueñotres.png" width="300" height="300" class="img-fluid" alt="posteo de ventas para instagrama de alcanza tu sueño 40% descuento">
+ <img src="../sitio/imagenes/postalcanzatusueñodos.png" width="300" height="300"  class="img-fluid " alt="posteo de ventas para instagrama de alcanza tu sueño del modelo tahiti">
+ </div>
+
+    <div class="carousel-item ">
+      <img src="../sitio/imagenes/postpet.png" width="300" height="300" class="img-fluid " alt="posteo de Instagram para Pet Lola, dando tips de como hacer feliz a tu perro">
+      <img src="../sitio/imagenes/postpettres.png" width="300" height="300" class="img-fluid" alt="posteo de Instagram para Pet Lola, explicando que son los perros PPP">
+      <img src="../sitio/imagenes/postpetdos.png" width="300" height="300"  class="img-fluid " alt="posteo de Instagram para Pet Lola, contando cuales son los beneficios de los alimentos para perros">      </div>
+
+   
+    <div class="carousel-item">
+<img src="../sitio/imagenes/postjudos.png" width="300" height="300" class="img-fluid" alt="Posteo de Instagram para ju contenido  que da 5 ideas de contenido">
+<img src="../sitio/imagenes/postju.png" width="300" height="300" class="img-fluid" alt="Posteo de Instagram para ju contenido con su logo">
+<img src="../sitio/imagenes/postjutres.png"  width="300" height="300" class="img-fluid" alt="Posteo de Instagram para ju contenido, dando aplicaciones para editar videos">
+</div>         
+</div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsdos" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsdos" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+</div>
+</div>
+</div>
+</div>  
+
+  <!--GALERIA DE IMAGENES EDICIÓN!-->
+            <div class="row">
+              <div class="col-lg-12  d-flex justify-content-center rounded m-0 p-5">
+                  <div class="card text-center">
+                      <div class="card-header ">
+                        FREELANCE
+                      </div>
+                      <div class="card-body ">
+                        <p class="card-title ">Edición fotográfica</p>
+  <div id="carouselExampleIndicatorstres" class="carousel slide">  
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../sitio/imagenes/margaritadespues.jpg" width="450" height="450" class="img-fluid" alt="fotografia editada de un pan dulce con chips de chocolate, visto desde arriba">
+        <img src="../sitio/imagenes/margarita.jpg" width="450" height="450" class="img-fluid" alt="fotografia sin editar de un pan dulce con chips de chocolate, visto desde arriba">
+      </div>
+    
+      <div class="carousel-item ">
+   <img src="../sitio/imagenes/margaritados.jpg" width="450" height="450" class="img-fluid " alt="fotografia editada de un bundin marmolado, visto desde arriba">
+   <img src="../sitio/imagenes/margaritadosdespues.jpg" width="450" height="450" class="img-fluid" alt="fotografia sin editar de un bundin marmolado, visto desde arriba">  
+  </div>
+
+      <div class="carousel-item ">
+        <img src="../sitio/imagenes/margaritatres.jpg" width="450" height="450" class="img-fluid " alt="fotografia editada de un pan dulce con almendras">
+        <img src="../sitio/imagenes/margaritatresdespues.jpg" width="450" height="450" class="img-fluid" alt="fotografia editada de un pan dulce con almendras">
+           </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorstres" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorstres" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div> 
+
+ <footer>     
+     <div class="card-body ">
+      <p class="card-text ">
+       <a href="https://www.instagram.com/ju.contenido/?hl=es-la"  class="enlaces"  target="_blank"><strong>Instagram</strong></a>
+                <a href="https://www.tiktok.com/@jucontenido?_t=8fhea1trezm&_r=1"class="enlaces"  target="_blank"> <strong>Tik Tok</strong></a>
+                <a href="https://www.behance.net/julietabascuas/projects" class="enlaces" target="_blank"><strong>Behance</strong> </a>
+        <a href="https://www.linkedin.com/in/julieta-bascuas-1097a5214/"  class="enlaces" target="_blank"> <strong>LinkedIn</strong></a></p>
+      </div>  
+        </footer>
+      
+        
+</body>
+</html>

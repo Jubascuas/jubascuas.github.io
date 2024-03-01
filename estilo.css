@@ -1,0 +1,60 @@
+body{
+    padding: 1em;
+    margin: 5em 2em;
+    color:black;
+    background-image: url("imagenes/fondo.jpg");
+}
+
+a{
+    display: flex;
+    color: black;
+}
+
+a:hover{
+color: rgb(178, 255, 178);
+}
+
+
+.centrado{
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+    
+}
+
+#resultado{
+    color: green;
+    background-color: black;
+
+}
+
+label:hover{
+    background-color:rgb(204, 173, 255) ;
+}
+
+button{
+    
+    background-color: rgb(17, 79, 6);
+    color: white;
+    text-align: center;    
+}
+
+
+
+.enlaces{
+    display: inline-block;
+    text-align: center;
+    margin: 2em;
+}
+
+footer{
+    padding: 1em;
+    margin: 1em;
+    color: white;
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+
+}
+
+
